@@ -1,4 +1,3 @@
-OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
 pwd
 /home/runner/command-line-basics-assignment-samliu1234
  mkdir LinuxExercise
@@ -6,7 +5,7 @@ pwd
 LinuxExercise  README.md  TerminalSession.txt
  cd LinuxExercise/
  touch myfile.txt
- echo this is my new file >> myfile.txt
+ echo this is my new file >> myfile.txt 
  cat myfile.txt 
 this is my new file
  cp myfile.txt myfile_copy.txt
@@ -14,20 +13,12 @@ this is my new file
 myfile_copy.txt  myfile.txt
  mv myfile_copy.txt myfile2.txt
  mv myfile2.txt ~
- cd ~
- ls
+ ls ~
 command-line-basics-assignment-samliu1234  myfile2.txt
 jdt.ls-java-project            _test_runner.py
- cd command-line-basics-assignment-samliu1234/LinuxExercise
  cd ..
- ls
-LinuxExercise  README.md  TerminalSession.txt
- rm LinuxExercise/myfile.txt
- ls
-LinuxExercise  README.md  TerminalSession.txt
+ rm -r LinuxExercise/myfile.txt
  rm -r LinuxExercise
- ls
-README.md  TerminalSession.txt
  ls ~
 command-line-basics-assignment-samliu1234  myfile2.txt
 jdt.ls-java-project            _test_runner.py
