@@ -17,7 +17,7 @@ myfile_copy.txt  myfile.txt
 command-line-basics-assignment-samliu1234  myfile2.txt
 jdt.ls-java-project            _test_runner.py
  cd ..
- rm -r LinuxExercise/myfile.txt
+ rm LinuxExercise/myfile.txt
  rm -r LinuxExercise
  ls ~
 command-line-basics-assignment-samliu1234  myfile2.txt
